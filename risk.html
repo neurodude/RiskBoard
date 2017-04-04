@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Risk</title>
+</head>
+<body>
+<canvas id ="canvas">
+	
+
+</canvas>
+<script type="text/javascript">
+	var canvas = document.getElementById("canvas");
+	var ctx = canvas.getContext("2d");
+
+	var background = new Image();
+	background.src = "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Riskgameboard.svg/1280px-Riskgameboard.svg.png"
+	background.onload = function(){
+    	ctx.drawImage(background,0,0);   
+	}​
+	</script>
+</body>
+</html>
